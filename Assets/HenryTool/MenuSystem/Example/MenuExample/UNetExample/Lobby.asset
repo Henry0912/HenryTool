@@ -39,6 +39,18 @@ MonoBehaviour:
     text: 
     action: 2
     goTo: {fileID: 0}
+  - name: 
+    uiType: 1
+    layer: 8
+    position: {x: -0.08, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    type: 1
+    sizeType: 2
+    sprite: {fileID: 0}
+    fontSize: 0
+    text: 
+    action: 2
+    goTo: {fileID: 0}
   images:
   - name: 
     uiType: 0

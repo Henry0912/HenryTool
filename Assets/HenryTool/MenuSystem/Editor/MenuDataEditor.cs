@@ -48,7 +48,6 @@ public class MenuDataEditor : Editor
 
     int imageCount = 0;
 
-
     GUIStyle myStyle = new GUIStyle();
     GUIStyle imageStyle;
     GUIStyle textStyle;
@@ -62,11 +61,8 @@ public class MenuDataEditor : Editor
         edButtons = serializedObject.FindProperty("buttons");
         edImages = serializedObject.FindProperty("Images");
 
-
         buttonCount = mData.buttons.Count;
         imageCount = mData.images.Count;
-
-
 
         EditorUtility.SetDirty(target);
     }
@@ -86,7 +82,6 @@ public class MenuDataEditor : Editor
 
         //EditorGUILayout.BeginHorizontal();
         //EditorGUILayout.EndHorizontal();
-
 
         myStyle = new GUIStyle(GUI.skin.button);
         myStyle.fontSize = 12;
@@ -336,6 +331,7 @@ public class MenuDataEditor : Editor
 
         EditorGUILayout.EndVertical();
 
+        EditorGUILayout.EndHorizontal();
         if (drawImage)
         {
             if (imgSettings[_index].showContent)
@@ -406,15 +402,6 @@ public class MenuDataEditor : Editor
 
 
         if (GUILayout.Button("", GUI.skin.box)) { }
-
-        if (imageCount > 0)
-        {
-            if (GUILayout.Button("Remove the last Image", myStyle))
-                imageCount--;
-        }
-        else
-            GUILayout.Label("No Image", myStyle);
-
 
         EditorGUILayout.EndHorizontal();
         #endregion
