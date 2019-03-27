@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4572748bfd540f2a27fdccf8a17729, type: 3}
+  m_Name: Lobby
+  m_EditorClassIdentifier: 
+  menuName: 
+  menuType: 1
+  buttons:
+  - name: SceneA
+    uiType: 0
+    layer: 1
+    position: {x: 0, y: 100}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    type: 0
+    sizeType: 2
+    sprite: {fileID: 21300000, guid: 9b8e4b5b219d91f4bad35483d1e04509, type: 3}
+    fontSize: 0
+    text: 
+    action: 0
+    goTo: {fileID: 11400000, guid: d66cd5147e8df42c1bca667a9cc0d0c3, type: 2}
+  - name: SceneB
+    uiType: 0
+    layer: 1
+    position: {x: 0, y: -100}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    type: 0
+    sizeType: 2
+    sprite: {fileID: 21300000, guid: 33d408fbd9402ff438d2aafd0bd788e7, type: 3}
+    fontSize: 0
+    text: 
+    action: 0
+    goTo: {fileID: 11400000, guid: 219c0e83b0cec4acdba625d07acff05b, type: 2}
+  images:
+  - name: 
+    uiType: 0
+    layer: 0
+    position: {x: 0, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    type: 0
+    sizeType: 0
+    sprite: {fileID: 0}
+    fontSize: 0
+    text: 
+    action: 0
+    goTo: {fileID: 0}
+  allUis: []

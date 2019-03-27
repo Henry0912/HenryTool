@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_00114_vuscount_H_Base
+  m_Shader: {fileID: 4800000, guid: c134ace2b95631e4ba69d820e53b11d6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MatrixTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 85c0ae3f3865845aeae4a9aca6915d4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _diffuse
+      second:
+        m_Texture: {fileID: 2800000, guid: 5c7bb2d4c2edec54f83245d39d9b489d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _eyesTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _maskTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 38404dbe05c13114d8dea16c9c0b8eee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _matMetal
+      second:
+        m_Texture: {fileID: 2800000, guid: f4bbe4dc874cf7f448a12bcd4e1acba4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _matToon
+      second:
+        m_Texture: {fileID: 2800000, guid: 8be57ed89110c484d91591ec2f79bff5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mouthTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _MatrixWidth
+      second: 4
+    - first:
+        name: _Threshold
+      second: 1
+    m_Colors: []
